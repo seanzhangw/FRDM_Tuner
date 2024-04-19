@@ -1,37 +1,10 @@
-# Project Descriptions## as2839
-Final Project Proposal 1: Digital Compass
------------------------------------------
+# Project Descriptions
 
-Objective
----------
-
-The objective of this project is to create a Digital Compass using the on-board magnetometer sensor. The compass will utilize Earth's magnetic field to 
-determine and display the cardinal directions (North, South, East, West) on an LCD display. This project aims to introduce the basics of Earth's magneti
-sm, sensor integration, and digital display technology.
-
-
-Materials
----------
-
-* FRDM-KL25Z
-
-* On-board magnetometer sensor 
-
-* LCD display
-
-Challenges and Solutions
-------------------------
-
-* Calibration: We can have an intuitive calibration process for users, potentially guided by on-screen instructions.
-
-* Magnetic Interference: Design the project to minimize interference (e.g., keeping electronic components spaced apart) and instruct users on how to use the device away from metallic objects.
-
-* Power Management: Optimize software for portable use.
-
-Learning Outcome
-
-We will gain experience with sensor integration, learn about Earth's magnetism, and how digital compasses work.## nsn8
-## pm475
-Teammate Filled Out# Feedback
+## aa2374
+## kc842
+## kzw9
+Our final project will be a classic game of Connect 4. Player 1 starts the game. The 4-Digit Segment LCD will show who’s turn it is to play. The coin always starts on the right side for both Player 1 and Player 2, and the player has the option of moving the coin to where they want it dropped using the Capacitive Touch Slider. Once Player 1 is satisfied with the slot that they want to drop the coin in, they can press the SW1 button. This triggers the system to know that it is Player 2’s turn. They control the SW2 button, and they also use the Capacitive Touch Slider. If Player 1 or Player 2 gets four coins in a row (diagonal, horizontal, or vertical), they win the game and the 4-Digit Segment will display that this player won. We are still deciding whether to use an external LED matrix or a computer monitor to represent our grid. The Reset button will reset the game, regardless of how far the game has progressed.
+# Feedback
 # Project Web-Page# Project Web page
-The project web-pages will also be hosted on github in this repo in the "page" branch. You can edit it by switching branches and modifying the files, or by pushing to the branch. Here is a link to a minmal web-page that you can edit and modify: [https://pages.github.coecis.cornell.edu/ece3140-sp2024/{t}](https://pages.github.coecis.cornell.edu/ece3140-sp2024/{t})
+The project web-pages will also be hosted on github in this repo in the "page" branch. You can edit it by switching branches and modifying the files, or by pushing to the branch. Here is a link to a minmal web-page that you can edit and modify: [https://pages.github.coecis.cornell.edu/ece3140-sp2024/aa2374-kc842-kzw9](https://pages.github.coecis.cornell.edu/ece3140-sp2024/aa2374-kc842-kzw9)
+
