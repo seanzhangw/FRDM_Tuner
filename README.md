@@ -1,10 +1,12 @@
-# Project Descriptions for Team am2589-ns752-vt252
+# Project Descriptions for Team aml399-fdp25-yl3558
 
-## am2589
-Described in Nikhil's quiz.## ns752
-We plan on implementing a ping-pong game for the final project. The user would use the board to slide a paddle across the bottom of the display on the computer screen as the ball bounces back and forth. We could make the game more challenging by increasing the speed of the ball as time progresses and could keep a score based on how long the player goes before allowing the ball to pass the paddle. ## vt252
-We plan on implementing a ping-pong game for the final project. the user would use the board to slide a paddle across the bottom of the display on the computer screen as the ball bounces back and forth. We could make the game more challenging by increasing the speed of the ball as time progressing and could keep a score based on how long the player goes before allowing the ball to pass the paddle.
+## aml399
+## fdp25
+Our objective for this project is to implement an interactive game based on the classic “Simon Says” using an embedded system that lights up a series of LEDs in a random order, and the player must replicate that order using a set of input buttons. This challenges a person to remember and replicate a sequence of lights, red, green, blue, and white.## yl3558
+Our objective for this project is to implement an interactive game based on the classic “Simon Says” using an embedded system that lights up a series of LEDs in a random order, and the player must replicate that order using a set of input buttons. This challenges a person to remember and replicate a sequence of lights, red, green, blue, and white.
+
+We expect that our game to generate (random uniformly) a color between red, green, blue, and white each round and flash it, alongside the previous lights, if any and in order. The game will expect the player to replicate the pattern of lights using the push buttons connected to the Arduino. The game is over when there is a mistake.
 # Feedback
 # Project Web-Page
 
-The project web-pages will also be hosted on github in this repo in the "page" branch. You can edit it by switching branches and modifying the files, or by pushing to the branch. Here is a link to a minmal web-page that you can edit and modify: [https://pages.github.coecis.cornell.edu/ece3140-sp2024/am2589-ns752-vt252](https://pages.github.coecis.cornell.edu/ece3140-sp2024/am2589-ns752-vt252)
+The project web-pages will also be hosted on github in this repo in the "page" branch. You can edit it by switching branches and modifying the files, or by pushing to the branch. Here is a link to a minmal web-page that you can edit and modify: [https://pages.github.coecis.cornell.edu/ece3140-sp2024/aml399-fdp25-yl3558](https://pages.github.coecis.cornell.edu/ece3140-sp2024/aml399-fdp25-yl3558)
