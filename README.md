@@ -1,10 +1,10 @@
-# Project Descriptions for Team aab274-bwo9-gls242
+# Project Descriptions for Team ab2382-az345-chl72
 
-## aab274
-Our idea is to replicate "Space Shooter - Galaxy", a video game where players participate in an intergalactic war where they must control a spacecraft to prevent an alien invasion. Using the FRDM-KL46Z board's accelerometer, pilots will navigate their ships by tilting the board in various directions, As players progress through the game's waves of enemies, they can collect and use several unique an power-ups that we have placed throughout the game. These power-ups range from shield enhancements and weapon upgrades to speed boosts and bombs. The goal is for each power-up to give the player a slight advantage as they progress. Players must also confront bosses that test the skills they've developed. These power-ups range from shield enhancements and weapon upgrades to speed boosts and bombs. The goal is for each power-up to give the player a slight advantage as they progress. Players must also confront bosses that test the skills they've developed. We plan on focusing on intuitive user controls and exciting features that will enhance the overall experience.## bwo9
-## gls242
-
+## ab2382
+## az345
+We want to create a reaction based game that uses the LEDs on the board and the buttons. Essentially, we’ll turn on an LED and the first player to click their button wins a point. The first player to a certain number of points wins. We can indicate different situations using different LED colors, such as when player 1 wins instead of player 2 we flash the color red.## chl72
+We want to create a reaction based game that uses the LEDs on the board and the buttons. Essentially, we’ll turn on an LED and the first player to click their button wins a point. The first player to a certain number of points wins. We can indicate different situations using different LED colors, such as when player 1 wins instead of player 2 we flash the color red.
 # Feedback
 # Project Web-Page
 
-The project web-pages will also be hosted on github in this repo in the "page" branch. You can edit it by switching branches and modifying the files, or by pushing to the branch. Here is a link to a minmal web-page that you can edit and modify: [https://pages.github.coecis.cornell.edu/ece3140-sp2024/aab274-bwo9-gls242](https://pages.github.coecis.cornell.edu/ece3140-sp2024/aab274-bwo9-gls242)
+The project web-pages will also be hosted on github in this repo in the "page" branch. You can edit it by switching branches and modifying the files, or by pushing to the branch. Here is a link to a minmal web-page that you can edit and modify: [https://pages.github.coecis.cornell.edu/ece3140-sp2024/ab2382-az345-chl72](https://pages.github.coecis.cornell.edu/ece3140-sp2024/ab2382-az345-chl72)
