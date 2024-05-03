@@ -25,6 +25,8 @@ We would like your final project page to have the following structure:
 ## The section headings we expct to see are:
 
 #### Overview (Fill in for web checkin May 3)
+
+
 In addition to the text, this should have the video (not needed by May 3) and the system diagram in it. You can embed an youtube video here. Please use a horizontal layout for the video if possible. 
 #### Technical Approach (Fill in for web checkin May 3)
 Use pictures and diagram where appropriate. For the checkin we want a draft of this section, you are free to change it further. 
