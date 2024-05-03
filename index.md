@@ -25,11 +25,18 @@ We would like your final project page to have the following structure:
 ## The section headings we expct to see are:
 
 #### Overview (Fill in for web checkin May 3)
+We built an instrument tuner that has two modes: a speaker and listening mode. For listening, it would take sound input and detect the frequency to tell users if they need to be sharper or flatter using LED. An on green LED indicates that the instrument is in tune, a red on LED indicates instrument is flat, while a blinking red LED indicates that the instrument is sharp. An extra microphone sensor is used to take in the signal and analyze. For speaker mode, the tuner would be able to set the frequency of the pitch and the volume with the capacitive touch sensor. In addition, the board will also support a metronome function that can play at different tempo.
 
+In order to allow input from users to play different notes and tempo, a GUI is implemented that contains the frequency and notes played 
 
 In addition to the text, this should have the video (not needed by May 3) and the system diagram in it. You can embed an youtube video here. Please use a horizontal layout for the video if possible. 
+
 #### Technical Approach (Fill in for web checkin May 3)
-Use pictures and diagram where appropriate. For the checkin we want a draft of this section, you are free to change it further. 
+Use pictures and diagram where appropriate. For the checkin we want a draft of this section, you are free to change it further.
+
+For the speaker mode, the microcontroller will use UART to connect with serial pins on laptop to send frequency and volume to play at, and the laptop can read the information provided. It will then be connected to a python script 
+
+Board send UART to serial pin on laptop through USB, laptop reads the serial pin and read the frequency, connects to python script and play the frequency on laptop speaker.
 #### Testing and Debugging
 Talk about your testing approach or subtle bugs you made/found.
 #### Team Work 
