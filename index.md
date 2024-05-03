@@ -32,7 +32,7 @@ In order to allow input from users to play different notes and tempo, a GUI is i
 In addition to the text, this should have the video (not needed by May 3) and the system diagram in it. You can embed an youtube video here. Please use a horizontal layout for the video if possible. 
 
 #### Technical Approach (Fill in for web checkin May 3)
-Use pictures and diagram where appropriate. For the checkin we want a draft of this section, you are free to change it further.
+Our listening mode listens to notes, analyzes the frequency of a note, and displays the detected note and the pitch offset on a GUI display. To detect the pitch of notes, we need to select a microphone with a sampling frequency high enough to accurately capture frequencies in the 16-5000 range (frequencies of common notes). Integrating a microphone into the FRDM board involves processing the analog input into a digital value. To accomplish this, we use the microcontroller’s built-in ADC. With access to a buffer of digital values that represent the sound wave, we use the Fast Fourier Transform (FFT) to perform frequency analysis on the wave. The sound wave frequency is then compared to the frequency of the closest half-note. This half-note is then sent to the connected computer via UART and displayed on a GUI. An indicator on the display also shows whether the note is sharp or flat. 
 
 For the speaker mode, the microcontroller will use UART to connect with serial pins on laptop to send frequency and volume to play at, and the laptop can read the information provided. It will then be connected to a python script 
 
