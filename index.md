@@ -6,13 +6,7 @@ To help with user input for playing different notes and adjusting tempo, we have
 
 In addition to the GUI for note selection and tempo adjustment, our project incorporates robust functionality to ensure accurate and responsive performance analysis. This includes signal processing algorithms such as FFT that detect and analyze the frequency of the input signal. Furthermore, the project integrates a database of ideal frequencies corresponding to standard musical notes, enabling users to compare their current frequency to the nearest note for optimal tuning accuracy.
 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+![Alt text for the diagram](/system_diagram.png)
 
 #### Technical Approach
 Our listening mode listens to notes, analyzes the frequency of a note, and displays the detected note and the pitch offset on a GUI display. To detect the pitch of notes, we need to select a microphone with a sampling frequency high enough to accurately capture frequencies in the 16-5000 range (frequencies of common notes). Integrating a microphone into the FRDM board involves processing the analog input into a digital value. To accomplish this, we use the microcontroller’s built-in ADC. With access to a buffer of digital values that represent the sound wave, we use the Fast Fourier Transform (FFT) to perform frequency analysis on the wave. The sound wave frequency is then compared to the frequency of the closest half-note. This half-note is then sent to the connected computer via UART and displayed on a GUI. An indicator on the display also shows whether the note is sharp or flat. 
