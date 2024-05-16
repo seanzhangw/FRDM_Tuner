@@ -10,7 +10,7 @@ In addition to the GUI for note selection and tempo adjustment, our project inco
 ![Alt text for the diagram](/tunerdiagramv2.drawio.png)
 
 ### Video
-[![Tuner Demo](http://img.youtube.com/vi/klZiHKINwlg?si=BPtNqKGGVt1m5zDP/0.jpg)](http://www.youtube.com/watch?v=klZiHKINwlg?si=BPtNqKGGVt1m5zDP)
+[![Tuner Demo](http://img.youtube.com/vi/klZiHKINwlg/0.jpg)](http://www.youtube.com/watch?v=klZiHKINwlg?si=BPtNqKGGVt1m5zDP)
 
 <!-- [Video](https://youtu.be/klZiHKINwlg?si=BPtNqKGGVt1m5zDP)
  -->
