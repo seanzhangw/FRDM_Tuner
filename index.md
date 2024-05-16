@@ -6,6 +6,7 @@ To help with user input for playing different notes and adjusting tempo, we have
 
 In addition to the GUI for note selection and tempo adjustment, our project incorporates signal processing algorithms such as FFT that detect and analyze the frequency of the input signal. Furthermore, the project integrates a database of ideal frequencies corresponding to standard musical notes, enabling users to compare their current frequency to the nearest note for optimal tuning accuracy.
 
+### System Diagram
 ![Alt text for the diagram](/tunerdiagramv2.drawio.png)
 
 ### Video
