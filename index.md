@@ -10,8 +10,10 @@ In addition to the GUI for note selection and tempo adjustment, our project inco
 ![Alt text for the diagram](/tunerdiagramv2.drawio.png)
 
 ### Video
-[Video](https://youtu.be/klZiHKINwlg?si=BPtNqKGGVt1m5zDP)
+[![Tuner Demo](http://img.youtube.com/vi/klZiHKINwlg?si=BPtNqKGGVt1m5zDP/0.jpg)](http://www.youtube.com/watch?v=klZiHKINwlg?si=BPtNqKGGVt1m5zDP)
 
+<!-- [Video](https://youtu.be/klZiHKINwlg?si=BPtNqKGGVt1m5zDP)
+ -->
 #### Technical Approach
 Our listening mode serves as the core functionality of our project, providing real-time analysis of played notes and delivering feedback to users. This mode begins by capturing audio input through a microphone sensor with a high sampling frequency sufficient to capture frequencies within the 16-5000 Hz range, covering common musical notes. Integration of the microphone into the FRDM board involves processing the analog input into digital values using the microcontroller's built-in ADC (Analog-to-Digital Converter).
 
