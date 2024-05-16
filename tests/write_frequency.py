@@ -17,7 +17,8 @@ recent output for something like /dev/tty????
 The board will send one string "Hello There Again!" 
 And then keep sending single bytes 0-255
 
-To send larger values than 255 you need to send muliple bytes from the MCU 
+To send larger values 
+than 255 you need to send muliple bytes from the MCU 
 and then decode them appropriatly using struct.unpack()
 """
 
@@ -26,5 +27,4 @@ import serial  #from pyserial package
 
 # Open serial connection (change COM port and baudrate as needed)
 with serial.Serial('COM3', 115200) as ser:
-
-    ser.write(b'1\n')
+    ser.write(b'60\n')
