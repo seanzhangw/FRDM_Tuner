@@ -6,7 +6,7 @@ To help with user input for playing different notes and adjusting tempo, we have
 
 In addition to the GUI for note selection and tempo adjustment, our project incorporates signal processing algorithms such as FFT that detect and analyze the frequency of the input signal. Furthermore, the project integrates a database of ideal frequencies corresponding to standard musical notes, enabling users to compare their current frequency to the nearest note for optimal tuning accuracy.
 
-![Alt text for the diagram](/system_diagram.png)
+![Alt text for the diagram](/tunerdiagram.drawio.png)
 
 #### Technical Approach
 Our listening mode serves as the core functionality of our project, providing real-time analysis of played notes and delivering feedback to users. This mode begins by capturing audio input through a microphone sensor with a high sampling frequency sufficient to capture frequencies within the 16-5000 Hz range, covering common musical notes. Integration of the microphone into the FRDM board involves processing the analog input into digital values using the microcontroller's built-in ADC (Analog-to-Digital Converter).
@@ -20,6 +20,16 @@ After the bpm value is received, each digit of the char is combined and converte
 To incorporate both the listening and metronome mode, switch 1 is utilized through interrupts. If switch 1 is pressed, it will trigger an interrupt that stops all the actions, and the microcontroller will switch the mode from listening to metronome, or vice versa.
 
 #### Testing and Debugging
+
+As we achieved incremental functionality, we thoroughly tested the additional functionality. 
+
+Upon integrating the speaker with the FRDM_KL46Z board and observing the analog-to-digital converted output, we ensured that the digital outputs correctly represented the frequency of the environmental sound. We played a 400Hz test tone, and plotted the values to ensure the digital outputs corresponded to a 400Hz sound wave. 
+
+Our FFT frequency analysis was tested with by observing the dominant frequency returned for various test tones. We used appropriate test tones to represent the desired frequency range we wanted to determine. 
+
+Testing our LED metronome involved sending via UART a range of BPM values and observing that the correct LED toggle rate was being set. We created a separate test script in Python to expedite this testing process.
+
+Our mode-switching functionality was tested by invoking the interrupt handler in all possible program states.
 
 There are multiple errors encountered during implementation. For instance, initially implemented the code in a way that calls the helper method to listening mode and metronome inside the IRQ handler. Both the helper methods for listening mode and metronome include infinite while loops, and when interrupts are disabled inside IRQ handler, the while loops get stuck and it wouldn't transition into a different mode when the switch is pressed. We figured out the error by writing print statements that let us know where the processor is at, and therefore we found out that the processor is stuck in an infinite while loop even when interrupts are triggered.
 
