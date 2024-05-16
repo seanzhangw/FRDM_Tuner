@@ -6,7 +6,7 @@ To help with user input for playing different notes and adjusting tempo, we have
 
 In addition to the GUI for note selection and tempo adjustment, our project incorporates signal processing algorithms such as FFT that detect and analyze the frequency of the input signal. Furthermore, the project integrates a database of ideal frequencies corresponding to standard musical notes, enabling users to compare their current frequency to the nearest note for optimal tuning accuracy.
 
-![Alt text for the diagram](/tunerdiagram.drawio.png)
+![Alt text for the diagram](/tunerdiagramv2.drawio.png)
 
 #### Technical Approach
 Our listening mode serves as the core functionality of our project, providing real-time analysis of played notes and delivering feedback to users. This mode begins by capturing audio input through a microphone sensor with a high sampling frequency sufficient to capture frequencies within the 16-5000 Hz range, covering common musical notes. Integration of the microphone into the FRDM board involves processing the analog input into digital values using the microcontroller's built-in ADC (Analog-to-Digital Converter).
